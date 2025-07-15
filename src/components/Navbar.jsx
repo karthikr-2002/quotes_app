@@ -14,13 +14,13 @@ const Navbar = () => {
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
         <li class="nav-item">
-          <Link class="nav-link" to="/">Add Product</Link>
+          <Link class="nav-link" to="/">Add Quotes</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/search">Search Products</Link>
+          <Link class="nav-link" to="/search">Search Quotes</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/delete">Delete Products</Link>
+          <Link class="nav-link" to="/delete">Delete Quotes</Link>
         </li>
 
 
