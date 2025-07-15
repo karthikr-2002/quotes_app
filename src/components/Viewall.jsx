@@ -7,19 +7,19 @@ const Viewall = () => {
         { "quotes": [], "total": 1454, "skip": 0, "limit": 30 }
 
     )
-    const fetchData =()=>{
+    const fetchData = () => {
         axios.get("https://dummyjson.com/quotes").then(
-            (response)=>{
+            (response) => {
                 changeQuotesData(response.data)
             }
         ).catch()
-        
+
     }
-    useEffect(()=>{fetchData()},[])
+    useEffect(() => { fetchData() }, [])
     return (
         <div>
             <Navbar />
-            <h1 className='header'><center>View All User</center></h1>
+            <h1 className='header'><center>View All Quotes</center></h1>
 
             <div className="container">
                 <div className="row">
